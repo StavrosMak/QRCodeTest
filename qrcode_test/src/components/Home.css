@@ -1,0 +1,45 @@
+/* Home.css */
+
+body {
+    background-color: #333; /* Dark background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; /* To ensure text is readable on dark background */
+  }
+  
+  .scanBox {
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #444; /* Slightly lighter dark background for the box */
+    padding: 20px;
+    /* box-sizing: border-box; */
+  }
+    .scanBox h1{
+        margin: auto;
+    }
+  .scanBox div{
+     max-width: 300px;
+  }
+  .homeContents{
+    display: flex;
+
+  }
+  .scanBox img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Keeps the aspect ratio and fits within the container */
+  }
+  
